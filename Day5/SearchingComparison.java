@@ -29,7 +29,7 @@ public class SearchingComparison {
 
             int target = arr[random.nextInt(size)];
 
-            System.out.println("Dataset Size: " + size);
+            System.out.println("DataSet Size: " + size);
 
             long start = System.nanoTime();
             linearSearch(arr, target);

@@ -1,7 +1,7 @@
 import java.io.*;
 
 public class LargeFileReaderBenchmark {
-    private static final String FILE_PATH = "largefile.txt"; // Replace with actual file path
+    private static final String FILE_PATH = "largefile1.txt"; // Replace with actual file path
 
     public static void main(String[] args) throws IOException {
         System.out.println("FileReader Time: " + measureFileReaderTime() + " ms");

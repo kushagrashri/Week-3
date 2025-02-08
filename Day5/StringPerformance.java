@@ -3,9 +3,9 @@ import static java.lang.System.out;
 public class StringPerformance {
 
     public static void runBenchmark(int iterations) {
-        out.println("String:ms "+ stringConcatenation(iterations));
-        out.println("StringBuilder:ms "+ stringBuilderConcatenation(iterations));
-        out.println("StringBuffer:ms "+ stringBufferConcatenation(iterations));
+        out.println(" String:ms "+ stringConcatenation(iterations));
+        out.println(" StringBuilder:ms "+ stringBuilderConcatenation(iterations));
+        out.println(" StringBuffer:ms "+ stringBufferConcatenation(iterations));
     }
 
     public static double stringConcatenation(int iterations) {

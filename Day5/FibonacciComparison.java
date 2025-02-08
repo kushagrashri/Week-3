@@ -20,7 +20,7 @@ public class FibonacciComparison {
         int[] testValues = {10, 30, 50};
 
         for (int n : testValues) {
-            System.out.println("Fibonacci N: " + n);
+            System.out.println(" Fibonacci N: " + n);
 
             long start = System.nanoTime();
 

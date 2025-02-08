@@ -128,14 +128,14 @@ public class SortingTimeComparison {
             long mergeStartTime = System.nanoTime();
             mergeSort(mergeData, 0, mergeData.length - 1);
             long mergeEndTime = System.nanoTime();
-            System.out.println("Merge Sort Time: " + (mergeEndTime - mergeStartTime) / 1000000.0 + " ms");
+            System.out.println("Merge Sort Time is: " + (mergeEndTime - mergeStartTime) / 1000000.0 + " ms");
 
             // Quick Sort (O(N log N)) : Case3
             int[] quickData = Arrays.copyOf(data, data.length);
             long quickStartTime = System.nanoTime();
             quickSort(quickData, 0, quickData.length - 1);
             long quickEndTime = System.nanoTime();
-            System.out.println("Quick Sort Time: " + (quickEndTime - quickStartTime) / 1000000.0 + " ms");
+            System.out.println("Quick Sort Time is: " + (quickEndTime - quickStartTime) / 1000000.0 + " ms");
         }
     }
 
